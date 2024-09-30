@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .bg-navy-blue {
+            background-color: #011232;
+        }
+        .bg-light-blue {
+            background-color: #013c81;
+        }
+        .bg-home {
+            background-image: url('assets/background.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .custom-height {
+            height: 100vh; /* Custom height for centering */
+        }
+    
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header class=" background-color-white text-blue p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">My Portfolio</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:underline">Home</a></li>
+                    <li><a href="#about" class="hover:underline">About</a></li>
+                    <li><a href="#skills" class="hover:underline">Skills</a></li>
+                    <li><a href="#projects" class="hover:underline">Projects</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="custom-height flex items-center justify-center bg-home bg-blue-300">
+        <div class="text-center text-white">
+            <h1 class="text-4xl font-bold">Hello, I'm Naga Chandana Adusumalli</h>
+            <h2 class="text-2xl font-bold"><br>Data Enthusiast</h2>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full md:w-1/2 lg:w-1/2 px-4">
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                        <!--<img class="h-40 rounded-full mx-auto" src="your-photo.jpg" alt="Your Photo">
+                        <h3 class="text-xl font-bold text-center mt-4">Your Name</h3> -->
+                        <p class="text-gray-700 text-center mt-2">I'm a passionate Data Enthusiast with 1 year of experience as a Machine Learning Engineer. Eagerly waiting for an opportunity to solve challenges through innovative, data-driven solutions and insights.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="bg-white py-2">
+        <div class="mx-auto px-4 lg:px-0 max-w-4xl">
+            <h2 class="text-3xl text-center font-bold mb-4">Skills</h2>
+            <div class="flex flex-wrap justify-center">
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">Python</h3>
+                </div>
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">TensorFlow</h3>
+                </div>
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">PyTorch</h3>
+                </div>
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">Scikit-Learn</h3>
+                </div>
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">Keras</h3>
+                </div>
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">Matplotlib</h3>
+                </div>
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">Jupyter Notebook</h3>
+                </div>
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">Power BI</h3>
+                </div>
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">GitHub</h3>
+                </div>
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">AWS</h3>
+                </div>
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">Numpy</h3>
+                </div>
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">Pandas</h3>
+                </div>
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">Natural Language Processing</h3>
+                </div>
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">Computer Vision</h3>
+                </div>
+                <div class="p-4 bg-navy-blue rounded shadow text-center mx-2 my-2 text-white ">
+                    <h3 class="font-bold text-lg">Signal Processing</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Relevant Experience Section -->
+    <section id="experience" class="container mx-auto py-10 px-4 bg-white">
+        <h2 class="text-3xl text-center font-bold mb-4">Relevant Experience</h2>
+    
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!-- First Experience -->
+            <div class="flex flex-col md:flex-row p-4 bg-white rounded shadow">
+                <div class="md:w-1/2 md:pr-4">
+                    <h3 class="font-bold">TRIO Student Services, Wichita State University</h3>
+                    <p class="mt-2">
+                        May 2023 - Aug 2023<br>
+                        • Served as a math tutor for five first-generation students, guiding them in coursework selection, motivating their studies, organizing their files, and connecting them with the appropriate tutors for specific doubts.<br>
+                        • This comprehensive support led to a 40% improvement in their academic performance.
+                    </p>
+                </div>
+                <div class="md:w-1/2 mt-4 md:mt-0 flex justify-center items-center">
+                    <img src="assets/Trio.png" alt="TRIO Student Services Image" class="rounded-md max-w-full h-auto">
+                </div>
+            </div>
+    
+            <!-- Second Experience -->
+            <div class="flex flex-col md:flex-row p-4 bg-white rounded shadow">
+                <div class="md:w-1/2 md:pr-4">
+                    <h3 class="font-bold">Graduate Teaching Assistant, Wichita State University, KS</h3>
+                    <p class="mt-2">
+                        Aug 2023 – May 2023<br>
+                        • As a GTA for Neural Networks and Deep Learning, facilitated discussions and evaluations for over 40 students on topics such as convolutional neural networks, recurrent neural networks, and LSTM.<br>
+                        • Conducted office hours and problem-solving sessions to reinforce understanding of supervised learning, unsupervised learning, and optimization algorithms.
+                    </p>
+                </div>
+                <div class="md:w-1/2 mt-4 md:mt-0 flex justify-center items-center">
+                    <img src="assets/my Profile picture.jpg" alt="Graduate Teaching Assistant Image" class="rounded-md max-w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+            <!-- Third Experience (Centered) -->
+            <section id="third-experience" class="bg-white py-0">
+                <div class="mx-auto px-4 lg:px-0 max-w-4xl">
+                    <div class="flex flex-col md:flex-row p-4 bg-white rounded shadow mx-auto" style="max-width: 1000px;">
+                        <div class="md:w-1/2 md:pr-4">
+                            <h3 class="text-center font-bold mb-4">Machine Learning Intern, Lisnen (Freelance), Toronto, Canada</h3>
+                            <p class="mt-2">
+                                Jun 2023 - Present<br>
+                                • I am currently developing machine learning and deep learning models for Lisnen, a mobile application.<br>
+                                • My primary responsibility is creating state-of-the-art (SoTA) deep learning models to classify acoustic sounds, utilizing techniques such as Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) for feature extraction and sequence modeling.<br>
+                                • This involves leveraging spectrogram analysis, data augmentation, and advanced optimization algorithms to ensure accurate and efficient sound recognition, significantly enhancing the app's functionality.
+                            </p>
+                        </div>
+                        <div class="md:w-1/2 mt-4 md:mt-0 flex justify-center items-center">
+                            <img src="assets/lisnen.webp" alt="Machine Learning Intern Image" class="rounded-md max-w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+       
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto py-20 px-4 bg-white">
+        <h2 class="text-3xl text-center font-bold mb-4">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mx-auto">
+            <!-- Project 1 -->
+            <div class="flex flex-col md:flex-row p-4 bg-white rounded shadow">
+                <div class="md:w-1/2">
+                    <h3 class="font-bold">LSTM-based Recurrent Neural Network for Heart Sound Classification</h3>
+                    <p class="mt-2">
+                        • Conducted hyperparameter tuning for LSTM models in a heart sound classification task, exploring parameters such as LSTM units, optimization methods, learning rates, activation functions, dropout rates, and batch sizes to achieve optimal validation accuracy, and compared the performance of Vanilla RNN, LSTM, and GRU networks by training models and evaluating their training and validation loss curves.<br>
+                        • Investigated regularization techniques like early stopping and dropout for LSTM models, comparing their performance against regular LSTM models to enhance classification robustness and accuracy.
+                    </p>
+                </div>
+                <div class="md:w-1/2 mt-4 md:mt-0 md:ml-4 flex justify-center items-center">
+                    <img src="assets/Heart Sound.jpg" alt="Project 3 Image" class="rounded-md max-w-full h-auto">
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="flex flex-col md:flex-row p-4 bg-white rounded shadow">
+                <div class="md:w-1/2">
+                    <h3 class="font-bold">CNN based Image Classification for Dogs vs Cats Dataset</h3>
+                    <p class="mt-2">
+                        • Implemented a CNN architecture for the Kaggle Dogs vs. Cats image classification challenge, incorporating multiple convolutional and pooling layers inspired by VGG and ResNet architectures, and conducted training experiments with optimizers like SGD and Adam, as well as Batch Normalization.<br>
+                        • Evaluated model performance through extensive hyperparameter tuning, visualized feature maps and kernels, and documented findings in a detailed report, including misclassified images and ambiguous predictions.
+                    </p>
+                </div>
+                <div class="md:w-1/2 mt-4 md:mt-0 md:ml-4 flex justify-center items-center">
+                    <img src="assets/dog or cat.jpg" alt="Project 3 Image" class="rounded-md max-w-full h-auto">
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="flex flex-col md:flex-row p-4 bg-white rounded shadow">
+                <div class="md:w-1/2">
+                    <h3 class="font-bold">BMI Classification Based on Gender, Height, and Weight Using Machine Learning</h3>
+                    <p class="mt-2">
+                        • Conducted comprehensive data exploration, preprocessing, and EDA for BMI classification based on gender, height, and weight, managing imbalanced data and normalizing features for improved model performance.<br>
+                        • Trained and evaluated various classification models, including Logistic Regression, SVM, and KNN, utilizing gender-specific and general models, and compared their performances using metrics such as Accuracy, Precision, Recall, and F1 Score.
+                    </p>
+                </div>
+                <div class="md:w-1/2 mt-4 md:mt-0 md:ml-4 flex justify-center items-center">
+                    <img src="assets/Machine Learning.webp" alt="Project 3 Image" class="rounded-md max-w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-navy-blue py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4 text-white">Contact Me</h2>
+            <p class="text-1xl font-bold mb-4 text-white">If you would like to get in touch, please email me at: <a href="mailto:your.email@example.com" class="underline">a.chandana1709@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light-blue text-white p-4 text-center">
+        <p>&copy; 2024 Chandana. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
